@@ -1,0 +1,16 @@
+
+.head
+{
+	display: flex;
+	align-items: center;
+	justify-content: end;
+}
+.size{
+	font-size: 5vw;
+	color: aqua;
+}
+.gcse-search
+{
+	align-content: center;
+	justify-content: center;
+}
