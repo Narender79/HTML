@@ -4,16 +4,67 @@
 			Google
 		</title>
 		<style>
-		body {
-			background-image: url('h2.jpg');
-			background-repeat: no-repeat;
-			background-attachment: fixed;
-			background-size: cover;
-		}
-		h1 {text-align: center;}
-	</style>
-		<link rel="stylesheet" type="text/css" href="Google.css">
-		<body style="background-image: h2.jpg;">
+			body
+			{
+				background-color: #181818;
+				color: whitesmoke;
+			}
+			.head
+			{
+				display: flex;
+				align-items: center;
+				justify-content: end;
+			}
+			.body_holder > h1{
+				font-size: 100px;
+				align-items: center;
+				justify-content: center;
+			}
+			.body_holder
+			{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex-direction: column;
+			}
+			.search_bar
+			{
+				width: 550px;
+				height: 40px;
+				padding: 0 12px;
+				border-radius: 20px;
+				margin-top: -35px;
+				margin-bottom: 30px;
+				background-color: #181818;
+				border: 1px solid grey;
+			}
+			.body_but > button
+			{
+				padding: flex;
+				flex-direction: row;
+				background-color: #282828;
+				color: whitesmoke;
+				margin: 0 6px;
+			
+			}
+			.body_lang
+			{
+				display: flex;
+				align-items: center;
+				margin-top: 15px;
+			}
+			.vern_mala > a
+			{
+				 margin: 0 4px;
+				 color: #318CE7;
+				 text-decoration: none;
+			}
+			.body_lang > p
+			{
+				margin-right: 8px;
+			}
+		</style>
+		<body>
 			<div class="head">
 				<p>
 					Gmail  Image 
@@ -23,18 +74,28 @@
 				width="30">
 				<img src="https://freesvg.org/img/abstract-user-flat-4.png"
 				height="30"
-				width="30 " />
+				width="30 "/>
 			</div>
-			<div class="size">
-				<h1>
-					Google
-			</h1>
-			</div>
-			<div>
-				<script async src="https://cse.google.com/cse.js?cx=e66f89efa3ddc421c">
-					
-				</script>
-				<div class="gcse-search"></div>
+			<div class="body_holder">
+				<h1>Google</h1>
+				<input class="search_bar" type="text" name="The thing you search for is:">
+				<div class="body_but">
+					<button>Googel search</button>
+					<button>I'm Feeling Lucky</button>
+				</div>
+				<div class="body_lang">
+					<p>Google offered in:</p>
+					<div class="vern_mala">
+						<a herf="">हिन्दी</a>
+						<a href="">বাংলা</a>
+						<a href="">తెలుగు</a>
+						<a href="">मराठी</a>
+						<a href="">தமிழ்</a>
+						<a href="">ગુજરાતી</a>
+						<a href="">ಕನ್ನಡ</a>
+						<a href="">മലയാളം</a>
+						<a href="">ਪੰਜਾਬੀ</a>
+					</div>
 				</div>
 			</div>
 		</body>
